@@ -83,7 +83,7 @@ Before you begin, ensure you have the following installed:
 - In this College ERP POC, the Node Express Boilerplate establishes a robust foundation for storing and managing staff and student data. It incorporates Role Management and   Authentication to ensure secure access. The REST endpoints facilitate retrieval, insertion, updating, and deletion of data, offering a comprehensive API. The analytics features provide  valuable insights, including total students per year and branch, identifying the maximum count. Additionally, the system enables querying for absent students on a specific day,       students with attendance below 75%, and a year-wise overview of vacant seats. The project enhances college management through efficient data handling and insightful analytics.
 
 ### Contributing
-- We welcome contributions to enhance and improve the College ERP POC. To contribute, follow these steps:
+We welcome contributions to enhance and improve the College ERP POC. To contribute, follow these steps:
 
 - Fork the repository and create a new branch for your feature or bug fix.
 - Implement your changes, ensuring to follow coding standards.
@@ -92,5 +92,4 @@ Before you begin, ensure you have the following installed:
 -Participate in the code review process and address feedback.
 - Upon approval, your contribution will be merged.
 
-- 
 Thank you for contributing to the College ERP POC project. Your efforts help make the system more robust and efficient for everyone.
