@@ -70,8 +70,7 @@ Before you begin, ensure you have the following installed:
     **Configure Environment (optional):**
 
        - If your APIs require environment-specific variables, consider configuring a Postman environment. Update the environment variables accordingly.
-
-5. **Usage**
+   
 
    **Run the Project Locally:**
 
@@ -80,3 +79,10 @@ Before you begin, ensure you have the following installed:
    ```
      - Visit http://localhost:3000 in your browser.
 
+
+### Usage
+
+    In this College ERP POC, the Node Express Boilerplate establishes a robust foundation for storing and managing staff and student data. It incorporates Role Management and     
+    Authentication to ensure secure access. The REST endpoints facilitate retrieval, insertion, updating, and deletion of data, offering a comprehensive API. The analytics features 
+    provide valuable insights, including total students per year and branch, identifying the maximum count. Additionally, the system enables querying for absent students on a specific 
+    day, students with attendance below 75%, and a year-wise overview of vacant seats. The project enhances college management through efficient data handling and insightful analytics.
