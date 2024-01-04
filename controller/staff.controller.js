@@ -1,5 +1,6 @@
 const Student = require('../model/student.model');
 const User = require('../model/user.model')
+const Attendance = require('../model/attendance.model')
 
 const CreateStaff = async (req, res) => {
     let staff = new User({
@@ -46,6 +47,8 @@ const DeleteStaff = async (req, res) => {
             return res.status(404).send({ error: 'Staff member not found' });
         }
 
+        // Delete associated attendance records
+        await Attendance.deleteMany({ studentId });
         res.send(staff);
     } catch (e) {
         res.status(500).send(e);
