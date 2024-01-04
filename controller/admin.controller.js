@@ -1,4 +1,5 @@
 const Student = require('../model/student.model')
+const Attendance = require('../model/attendance.model')
 
 const CreateStudent = async (req, res) => {
     let student = new Student(req.body);
@@ -40,6 +41,8 @@ const DeleteStudent = async (req, res) => {
             return res.status(404).send({ error: 'Student not found' });
         }
 
+         // Delete associated attendance records
+        await Attendance.deleteMany({ studentId });
         res.send(student);
     } catch (e) {
         res.status(500).send(e);
