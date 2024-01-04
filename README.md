@@ -1,10 +1,10 @@
 # ERP
 
-Brief description of your project.
+The College ERP POC is a Node Express project with authentication, role management, and analytics. It manages staff, students, and department data, provides attendance tracking, and offers analytics on students and vacant seats based on specified parameters.
 
 ## Overview
 
-Provide a brief overview of your project, including its purpose and key features.
+The College ERP POC is designed to efficiently manage staff and student data, providing key analytics for effective management. The system incorporates an admin role for adding staff, students, and department data. Utilizing Node Express, the project includes robust REST endpoints for CRUD operations, ensuring data retrieval, insertion, update, and deletion. Role management and authentication mechanisms enhance security. Analytics features offer insights into total student counts per year and branch, highlighting the maximum count. Additional functionalities include generating lists of absent students and those with attendance below 75%, along with a year-wise overview of vacant seats. The project enhances college management through streamlined data handling and insightful analytics.
 
 ## Table of Contents
 
